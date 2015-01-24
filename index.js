@@ -1,7 +1,7 @@
 var weather = require('weatherjs').weather;
 var net = require('net');
 
-var HOST = "localhost";
+var HOST = "sew.juanjofp.com";
 var PORT = 6969;
 
 weather.init(38.032024, -1.124372);
