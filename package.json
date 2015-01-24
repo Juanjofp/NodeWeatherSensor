@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Juanjofp/NodeWheaterSensor",
   "dependencies": {
-    "weatherjs": "0.0.5"
+    "weatherjs": "0.0.6"
   }
 }
