@@ -1,5 +1,5 @@
 {
-  "name": "WeatherSensor",
+  "name": "sew_weathersensor",
   "version": "0.0.2",
   "description": "Sensor para enviar temperaturas a la plataforma SEW indicando las coordenadas de la unicacion en la q tomar las medidas",
   "main": "index.js",
