@@ -1,10 +1,14 @@
 var weather = require('weatherjs').weather;
 var net = require('net');
 
-var HOST = "sew.juanjofp.com";
+var HOST = "127.0.0.1";
 var PORT = 6969;
 
-weather.init(38.032024, -1.124372);
+var args = process.argv.slice(2);
+var _latitude =  args[0] || 38.032024;
+var _longitude = args[1] || -1.124372;
+
+weather.init(_latitude, _longitude);
 
 var client = new net.Socket();
 

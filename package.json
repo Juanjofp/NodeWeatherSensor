@@ -1,7 +1,7 @@
 {
   "name": "WeatherSensor",
-  "version": "0.0.1",
-  "description": "Sensor para enviar temperaturas a la plataforma SEW",
+  "version": "0.0.2",
+  "description": "Sensor para enviar temperaturas a la plataforma SEW indicando las coordenadas de la unicacion en la q tomar las medidas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
