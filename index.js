@@ -1,3 +1,4 @@
+'use strict';
 var weather = require('weatherjs').weather;
 var net = require('net');
 
@@ -21,6 +22,10 @@ client.on('data', function(data) {
 client.on('close', function() {
   console.log('Server closed');
   client.destroy();
+});
+
+client.on('error', function(err) {
+  console.log(err.stack)
 });
 
 weather.on('data', function(data) {
